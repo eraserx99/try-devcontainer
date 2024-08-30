@@ -1,0 +1,28 @@
+{
+	"name": "try-node",
+	"dockerComposeFile": [
+		"../../docker-compose.yaml"
+	],
+  "service": "try-node",
+  "shutdownAction": "none",
+  "workspaceFolder": "/workspace/try-node",
+
+	// "features": {},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	// "forwardPorts": [3000],
+	"portsAttributes": {
+		"3000": {
+			"label": "Hello Remote World",
+			"onAutoForward": "notify"
+		}
+	},
+	"postCreateCommand": "yarn install"
+	// "remoteUser": "root"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "try-go",
+	"dockerComposeFile": [
+		"../../docker-compose.yaml"
+	],
+	"service": "try-go",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/try-go",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	// "forwardPorts": [9000],
+	"portsAttributes": {
+		"9000": {
+			"label": "Hello Remote World",
+			"onAutoForward": "notify"
+		}
+	}
+	// "postCreateCommand": "go version",
+	// "remoteUser": "root"
+}
