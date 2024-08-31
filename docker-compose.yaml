@@ -5,6 +5,7 @@ services:
     image: "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm"
     hostname: try-go
     container_name: try-go
+    # The cached option is ignored for non-MacOS OSes and VirtioFS and gRPC FUSE sharing implementations on MacOS.
     volumes:
       - .:/workspace:cached
       # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
@@ -32,6 +33,7 @@ services:
     image: "mcr.microsoft.com/devcontainers/java:21-jdk-bookworm"
     hostname: try-java
     container_name: try-java
+    # The cached option is ignored for non-MacOS OSes and VirtioFS and gRPC FUSE sharing implementations on MacOS.
     volumes:
       - .:/workspace:cached
       # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
@@ -53,6 +55,7 @@ services:
     image: "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm"
     hostname: try-node
     container_name: try-node
+    # The cached option is ignored for non-MacOS OSes and VirtioFS and gRPC FUSE sharing implementations on MacOS.
     volumes:
       - .:/workspace:cached
       # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
