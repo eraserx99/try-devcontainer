@@ -1,5 +1,5 @@
 {
-	"name": "Java",
+	"name": "try-java-kafka",
 	"dockerComposeFile": [
 		"../../docker-compose.yaml"
 	],
