@@ -2,6 +2,7 @@
   "projects": {
     "try-go": "git@github.com:eraserx99/try-go.git",
     "try-node": "git@github.com:eraserx99/try-node.git",
-    "try-java": "git@github.com:eraserx99/try-java.git"
+    "try-java": "git@github.com:eraserx99/try-java.git",
+    "try-java-kafka": "git@github.com:eraserx99/try-java-kafka.git"
   }
 }
