@@ -2,6 +2,6 @@
   "projects": {
     "try-go": "git@github.com:microsoft/vscode-remote-try-go.git",
     "try-node": "git@github.com:eraserx99/try-node.git",
-    "try-java": "git@github.com:microsoft/vscode-remote-try-java.git"
+    "try-java": "git@github.com:eraserx99/try-java.git"
   }
 }
