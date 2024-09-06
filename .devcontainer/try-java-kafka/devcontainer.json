@@ -10,12 +10,11 @@
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
+			"version": "latest",
 			"installMaven": "true",
 			"mavenVersion": "3.8.6",
 			"installGradle": "true"
-		},
-    "gradle": "latest"
+		}
 	},
 
 	"customizations": {

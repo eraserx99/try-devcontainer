@@ -31,6 +31,9 @@ services:
 
   try-java:
     image: "mcr.microsoft.com/devcontainers/java:21-jdk-bookworm"
+    # build: 
+    #   context: .devcontainer/try-java
+    #   dockerfile: Dockerfile
     hostname: try-java
     container_name: try-java
     # The cached option is ignored for non-MacOS OSes and VirtioFS and gRPC FUSE sharing implementations on MacOS.
