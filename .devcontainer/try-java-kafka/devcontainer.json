@@ -14,7 +14,8 @@
 			"installMaven": "true",
 			"mavenVersion": "3.8.6",
 			"installGradle": "true"
-		}
+		},
+    "gradle": "latest"
 	},
 
 	"customizations": {
